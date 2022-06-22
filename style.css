@@ -1,0 +1,1075 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.63vw;
+    color: #1C1C1C;
+}
+
+span{
+    font-weight: 600;
+}
+
+/*menu*/
+
+.menu_mob_list {
+    display: none;
+}
+.menu_mob div {
+    display: none;
+    width: 20px;
+    height: 2.13px;
+    margin-bottom: 4.31px;
+    background-color: #1C1C1C;
+    border-radius: 2px;
+}
+
+.section {
+    width: 100vw;
+    height: 56vw;
+    background-image: url(/img/BG.png);
+    background-size: cover;
+}
+
+.header {
+    display: block;
+    margin: 0 9.11vw;
+    padding-top: 2.08vw;
+    padding-bottom: 2.24vw;
+    text-align: center;   
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.25vw;
+    border-bottom: 0.05vw solid rgba(28,28,28,0.07);
+    
+}
+
+.menu img {
+    width: 1.20vw;
+    height: 1.15vw;
+    margin-top: 0.73vw;
+}
+
+.menu p{
+    font-size: 0.73vw;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.menu p:hover{
+    color: #F38120;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*contact*/
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.41vw;
+    padding-left: 1.21vw;
+}
+
+.contacts .contact_txt {
+    width: 10.68vw;
+    font-weight: 400;
+    line-height: 0.94vw;
+    text-align: center;
+}
+
+.contact_dox {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0;
+}
+
+.contact_dox a {
+    font-size: 0.57vw;
+    font-weight: 600;
+    color: #12C868;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0.78vw 0 0 0;
+    background: #FFFFFF;
+}
+
+.contact_dox p {
+    margin-left: 0.89vw;
+    border-bottom: 0.10vw dotted #12C868;
+    padding: 0.78vw 0 0.10vw 0;
+    font-weight: 600;
+}
+
+.mess_h p{
+    padding-bottom: 0.83vw;
+
+}
+
+.mess_h .kr {
+    color: #12C868;
+    padding-right: 0.21vw;
+}
+
+
+.mess_h span {
+    font-weight: 700;
+    
+}
+
+
+.mess_logo {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.mess_logo .vb {
+    border-radius: 50%;
+    background: #976FCC;
+    padding: 0.63vw;
+    margin: 0 0.36vw;
+     
+}
+
+.mess_logo .wa {
+    border-radius: 50%;
+    background: #12C868;
+    padding: 0.68vw 0.63vw 0.57vw 0.63vw;
+    margin: 0 0.36vw;
+}
+
+.mess_logo .tg {
+    border-radius: 50%;
+    background: #05A0EB;
+    padding: 0.78vw 0.68vw;
+    margin: 0 0.36vw;
+}
+
+.vb:hover, .wa:hover, .tg:hover {
+    opacity: 75%;
+}
+
+.contact_call p{
+    margin-bottom: 0.31vw;
+}
+
+.contact_call span{
+    font-weight: 700;
+}
+
+.contact_call .number {
+    font-size: 1.15vw;
+    font-weight: 600;
+    margin: 0;
+}
+
+.contact_call .call_btn {
+    border: none;
+    border-bottom: 0.10vw dotted #12C868;
+    background: none;
+    font-weight: 600;
+    color: #12C868;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+/*text*/
+
+.block_text {
+    max-width: 60vw;
+    margin: 4.17vw 9.11vw 7.81vw 9.11vw;
+    display: flex;
+    justify-content: start; 
+}
+
+
+.block_text .list {
+    max-width: 11.72vw;
+    padding-top: 1.56vw;
+    background: #FFFFFF;
+    padding-bottom: 0.52vw;
+}
+
+.block_text .list p {
+    padding:0 1.56vw 1.56vw 1.56vw;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.73vw;
+}
+
+.block_text .list .after::after {
+    display: block;
+    content: '';
+    margin: 0 auto;
+    width: 5.21vw;
+    background: #1C1C1C;
+    height: 0.16vw;
+    opacity: 50%;
+    margin-top: 1.56vw;
+}
+
+.block_text .list p:hover {
+    color: #F38120;
+    cursor: pointer;
+}
+
+.block_text .list span {
+    font-weight: 700;
+}
+
+.block_information {
+    margin: 0 3.65vw;
+}
+
+.text_header p{
+    font-size: 2.86vw;
+    font-weight: 300;
+    line-height: 4.43vw;
+    margin: 0;
+}
+
+.slaider {
+    display: flex;
+    font-size: 1.67vw;
+    font-weight: 400;
+    margin-top: 0.26vw;
+    margin-bottom: 2.34vw;
+}
+
+.circle {
+    width: 0.26vw;
+    height: 0.26vw;
+    margin-right: 0.26vw;
+    border: 0.10vw solid #12C868;
+    border-radius: 50%;
+    margin-top: 0.83vw;
+
+    
+}
+
+.color_1 {
+    opacity: 75%;
+}
+
+.color_2 {
+    opacity: 50%;
+}
+
+.color_3 {
+    opacity: 25%;
+}
+
+.sl_name {
+    margin-left: 0.26vw;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.but {
+    padding: 1.41vw 2.6vw;
+    margin: 0.52vw;
+    display: flex;
+    border-radius: 26.04vw;
+    font-size: 0.73vw;
+    font-weight: 400;
+    line-height: 1.15vw;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 0;
+    cursor: pointer;
+}
+
+.but img {
+    width: 1.56vw;
+    height: 1.56vw;
+    position: relative;
+    top: 0.34vw;
+    right: 0.63vw;
+}
+
+.but p {
+    margin-right: 1.30vw;
+}
+
+.buttons .btn_1 {
+    max-width: 19.53vw;
+    background: #12C868;
+
+}
+
+.btn_1:hover {
+    background: #21E27C;
+}
+
+.buttons .btn_2 {
+    max-width: 17.45vw;
+    background: #F38120;
+}
+
+.btn_2:hover {
+    background: #FD9C49;
+}
+
+.remark_mob {
+    display: none;
+}
+
+.remark {
+    max-width: 30%;
+    margin: 1.04vw 3.02vw;
+    text-align: center;
+    line-height: 1.15vw;
+    font-size: 0.73vw;
+}
+
+.win_open {
+    display: none;
+}
+
+
+/*modal_block*/
+
+.modal {
+    display: none;
+    width: 28.65vw;
+    height: 33.85vw;
+    background: url(/img/modal_b.png);
+    border-radius: 1.82vw;
+    position: fixed;
+    top: 15%;
+    right: 35%;
+}
+
+.modal h4 {
+    font-size: 1.82vw;
+    font-weight: 500;
+    color: #1C1C1C;
+    text-align: center;
+    margin: 3.65vw 5.10vw 0.21vw 5.10vw;
+}
+
+.modal p {
+    font-weight: 400;
+    margin: 1.25vw 5.36vw 0 5.36vw;
+    font-size: 0.83vw;
+    color: #000000;
+    text-align: center;
+}
+
+.modal .text_m {
+    font-size: 0.63vw;
+    opacity: 75%;
+}
+
+.modal .n_txt {
+    text-align: left;
+    margin-left: 7.81vw;
+    font-size: 0.63vw;
+    color: #1C1C1C;
+}
+
+.modal .number_modal {
+    margin: 0.73vw 5.21vw 0 5.21vw;
+    padding: 1.77vw 4.43vw 1.77vw 2.34vw;
+    border-radius: 26.04vw;
+    font-size: 0.94vw;
+    font-weight: 400;
+    border: 0.05vw solid #FFFFFF;
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.modal .btn_modal {
+    max-width: 18.54vw;
+    margin: 1.25vw 5.05vw 0 5.05vw;
+    display: flex;
+    border-radius: 26.04vw;
+    font-size: 160.83vw;
+    font-weight: 600;
+    line-height: 1.15vw;
+    background: #F38120;
+    border: 0;
+    cursor: pointer;
+}
+.modal .btn_modal:hover {
+    background: #FD9C49;
+}
+
+.modal .btn_modal p {
+    color: #FFFFFF;
+    margin: 1.67vw 4.53vw;
+    font-size: 0.83vw;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.modal .btn_modal img {
+    width: 1.56vw;
+    height: 1.56vw;
+    position: relative;
+    top: 1.46vw;
+    right: 3.65vw;
+}
+
+.modal .chekB {
+    display: flex;
+    margin: 0.99vw 4.17vw 0 5.21vw;
+}
+
+#check {
+color: #F38120;
+}
+
+.modal .chekB p {
+    font-size: 0.63vw;
+    font-weight: 500;
+    line-height: 1.09vw;
+
+}
+
+.modal .chekB span {
+    color: #F38120;
+}
+
+.modal .chekB #check {
+    margin-top: 0.36vw;
+    margin-right: 0.78vw;
+}
+
+.modal .btn_back {
+    cursor: pointer;
+    position: absolute;
+    right: 2.45vw;
+    top: 2.34vw;
+}
+
+.modal .btn_back:hover {
+    opacity: 75%;
+}
+
+.modal .message_good {
+    display: none;
+    font-size: 0.73vw;
+    border-radius: 1.82vw;
+    background: #12C868;
+    color: #FFFFFF;
+    opacity: 75%;
+    padding: 0.78vw;
+}
+
+
+
+
+
+/*media*/
+
+@media (max-width: 990px) {
+
+    .menu {
+        padding-bottom: 8px;        
+    }
+    
+    .menu img {
+        width: 10px;
+        height: 10px;
+        margin-top: 4px;
+    }
+    
+    .menu p{
+        font-size: 7px;
+        font-weight: 400;
+    }
+
+    .contacts {
+        margin-top: 0;
+    }
+    
+    .contacts .contact_txt {
+        width: 50px;
+        line-height: 4px;
+    }
+
+    .contact_dox {
+        display: block;
+        margin-top: 8px;
+    }
+    
+    .contact_dox a {
+        font-size: 6px;
+        padding: 10px 6px;
+    }
+    
+    .contact_dox p {
+        margin-left: 4px;
+    }
+    
+    .contact_logo  img{
+        width: 70px;
+        height: 70px;
+        margin-top: -20px;
+    }
+    
+    .mess_logo .vb, .mess_logo .wa, .mess_logo .tg {
+        padding: 3px;
+        margin: 0 2px;
+        width: 10px;
+        height: 10px;
+    }
+
+    .contact_call .number {
+        font-size: 8px;
+        font-weight: 500;
+    }
+    
+    .contact_call .call_btn {
+        font-weight: 500;
+       font-size: 6px;
+    }
+
+    .modal {
+        width: 150px;
+        height: 200px;
+        top: 70px;
+        right: 40%;
+    }
+    
+    .modal h4 {
+        font-size: 8px;
+        margin: 20px 25px 0 25px;
+    }
+    
+    .modal p {
+        font-size: 5px;
+        margin: 10px 20px 5px 20px;
+    }
+    
+
+    .modal .n_txt {
+        font-size: 4px;
+        margin: 0 0 0 30px;
+    }
+    
+    .modal .number_modal {
+        margin: 5px 19px;
+        padding: 10px 25px;
+        font-size: 5px;
+    }
+    
+    .modal .btn_modal {
+        margin: 0px 18px;
+        padding: 0px 0px;
+        font-size: 5px;  
+    }
+    
+    .modal .btn_modal p {
+        font-size: 5px;
+        margin: 10px 31px;
+    }
+    
+    .modal .btn_modal img {
+        width: 10px;
+        height: 10px;
+        top: 10px;
+        right: 25px;
+    }
+    
+    .modal .chekB {
+        margin: 6px 15px 1px 22px;
+    }
+    
+    
+    .modal .chekB p {
+        font-size: 5px;
+        line-height: 8px;
+    }
+    
+    .modal .btn_back {
+        width: 10px;
+        height: 10px;
+        right: 10px;
+        top: 10px;
+    }
+    
+    .modal .btn_back:hover {
+        opacity: 75%;
+    }
+    
+    .modal .message_good {
+        font-size: 5px;
+        padding: 10px;
+    }
+
+    .block_text {
+        max-width: 400px;
+        margin: 0 60px;
+    }
+
+    .block_text .list {
+        max-width: 100px;
+        padding-top: 10px;
+    }
+    
+    .block_text .list p {
+        padding:0 10px 10px 10px;
+        font-size: 6px;
+    }
+    
+    .block_text .list span {
+        font-weight: 600;
+    }
+    
+    .block_information {
+        margin: 10px 20px;
+    }
+    
+    .text_header p{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+    .slaider {
+        font-size: 14px;
+    }
+    
+    .circle {
+        width: 3px;
+        height: 3px;
+        border: 1px solid #12C868;    
+    }
+
+    .sl_name {
+        margin-top: 5px;
+        margin-left: 3px;
+    }
+
+    .but {
+        padding: 3px 7px;
+        margin: 3px;
+        font-size: 6px;
+        line-height: 8px;
+    }
+    
+    .but img {
+        width: 10px;
+        height: 10px;
+        top: 8px;
+        right: 10px;
+    }
+    
+    .but p {
+        margin-right: 5px;
+    }
+    
+    .buttons .btn_1 {
+        max-width: 130px;
+    }
+ 
+    .buttons .btn_2 {
+        max-width: 110px;
+    }
+    
+    .remark {
+        margin: 10px;
+        line-height: 6px;
+        font-size: 5px;
+    }
+    
+}
+
+@media (max-width: 610px) {
+
+    .modal {
+        display: none
+    }
+    
+    .block_text {
+        max-width: 300px;
+        margin: 0 40px;
+    }
+
+    .block_text .list {
+        max-width: 60px;
+        max-height: 160px;
+        padding-top: 5px;
+    }
+    
+    .block_text .list p {
+        padding:0 2x 2px 2px;
+        font-size: 4px;
+    }
+    
+    .text_header p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .slaider {
+        font-size: 10px;
+    }
+    
+    .circle {
+        width: 2px;
+        height: 2px;
+    }
+
+    .but {
+        font-size: 4px;
+        line-height: 6px;
+    }
+    
+    .but img {
+        top: 4px;
+        right: 8px;
+    }
+
+    .remark {
+        margin: 2px 5px;
+        line-height: 6px;
+        font-size: 4px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .section {
+        width: 320px;
+        height: 600px;
+        background-image: url(/img/BG_M.png);
+        background-color: #edf2f5;
+        margin-top: 10px;
+    }
+
+    .header{
+        margin: 0 22px 0 29px;
+        padding: 0;
+    }
+
+    .contact_logo img{
+        width: 51px;
+        height: 21px;
+        margin-top: 10px;
+    }
+    
+    .contact_call {
+        margin-top: 5px;
+        font-size: 7px;
+        padding-top: 5px;
+    }
+
+    .contact_call .number {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .contact_call .call_btn {
+        font-size: 10px;
+        font-weight: 600;
+        border-bottom: 3px dotted #12C868;
+        padding-bottom: 3px;
+    }
+
+    
+
+    .menu_mob div {
+        display: block;
+    }
+    
+    .menu_mob {
+        margin: 22px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .contact_dox {
+        display: none;
+    }
+
+    .contact_txt{
+        display: none;
+    }
+
+    .contact_messenger {
+        display: none;
+    }
+
+    .list {
+        display: none;
+    }
+
+    .block_text .block_information{
+        margin: 25px 0;
+    }
+
+    .text_header p {
+        font-size: 18px;
+        text-align: center;
+        line-height: 30px;
+
+    }
+
+    .slaider {
+        display: flex;
+        justify-content: center;
+        font-size: 13px;
+        font-weight: 400;
+        color: #1C1C1C;
+    }
+    
+    .circle {
+        width: 3px;
+        height: 3px;
+        border: 1px solid #12C868;
+        border-radius: 50%;
+        margin-right: 3px;margin-top: 7px;
+        
+    }
+
+    .slaider .sl_name {
+        margin-top: 0;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .but {
+        font-size: 10px;
+        line-height: 16px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        padding: 14px 22px;
+    }
+    
+    .but p {
+        margin-right: 10px;
+        
+    }
+    
+    .buttons .btn_1 {
+        max-width: 276px;
+    }
+    
+    .buttons .btn_2 {
+        max-width: 276px;
+    }
+
+    .but img {
+        width: 18px;
+        height: 18px;
+        position: relative;
+        top: 5px;
+        right: 10px;
+    }
+    
+    .remark {
+        display: none;
+    }
+
+    .remark_mob {
+        display: block;
+        margin: 33px 22px 10px 22px;
+        text-align: center;
+        line-height: 12px;
+        font-size: 8px;
+    }
+
+    .remark_mob img {
+        margin-bottom: 10px;
+    }
+
+    .win_open {
+        display: block;
+        width: 200px;
+        height: 109px;
+        background: url(/img/mob_u.png);
+        position: relative;
+        top: 66px;
+        left: 17px;
+    }
+
+    .win_open p {
+        font-size: 10px;
+        padding: 26px 75px 0 23px;
+        line-height: 15px;
+    }
+
+    .win_open .open_text {
+        font-size: 6px;
+        padding: 7px 65px 0 23px;
+        line-height: 8px;
+        color: #B5B5B5;
+        position: relative;
+        bottom: 33px;
+    }
+
+    .win_open .open_btn {
+        width: 33px;
+        background: #F38120;
+        color: #FFFFFF;
+        height: 33px;
+        position: relative;
+        left: 155px;
+        bottom: 40px;
+        border-radius: 50%;
+        font-size: 18px
+        border: 0;
+        font-weight: 500;
+        margin: 0;
+
+    }
+
+    .modal_gl {
+        display: block;
+
+    }
+
+    .menu_btn_back {
+        display: none;
+        position: relative;
+        bottom:20px;
+    }
+
+    .menu_mob_list {
+        display: none;
+        width: 320px;
+        height: 568px;
+        background-color: #edf2f5;
+        position: relative;
+        right: 30px;
+        margin-top: 20px;
+    }
+
+    .menu_mob_list img {
+        padding-bottom: 20px;
+    }
+
+    .menu_mob_list p {
+        padding-bottom: 20px;
+        font-size: 10px;
+        font-weight: 500;
+        color: #1C1C1C;
+        text-transform: uppercase;
+    }
+
+    .menu_mob_list p:hover {
+        color: #F38120;
+        text-decoration: underline;
+    }
+
+    .menu_mob_list .menu_mob_txt p{
+        font-size: 8px;
+        line-height: 14px;
+        text-transform: none;
+        padding: 0 60px 28px 60px;
+        text-align: center;
+    }
+
+    .menu_contact_dox {
+        display: flex;
+        justify-content: center;
+        margin: auto 0;
+    }
+    
+    .menu_contact_dox a {
+        font-size: 11px;
+        font-weight: 600;
+        color: #12C868;
+        text-decoration: none;
+        border-radius: 50%;
+        margin-right: 10px;
+        padding: 10px;
+        background: #FFFFFF;
+    }
+    
+    .menu_contact_dox p {
+        margin-left: 3px;
+        border-bottom: 3px dotted #12C868;
+        padding: 10px 0 0 0;
+        font-weight: 600;
+    }
+
+    .menu_contact_messenger{
+        margin-top: 30px;
+    }
+
+    .menu_mess_h p{
+        font-size: 8px;
+        font-weight: 700;
+        color: #1C1C1C;
+        font-family: 'Montserrat', sans-serif;
+        padding-bottom: 10px;
+    }
+    
+    .menu_mess_h .menu_kr {
+        color: #12C868;
+        padding-right: 5px;
+    }
+    
+    
+    .menu_mess_h span {
+        font-weight: 700;
+        
+    }
+    
+    
+    .menu_mess_logo {
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .menu_mess_logo .menu_vb {
+        border-radius: 50%;
+        background: #976FCC;
+        padding: 10px;
+        margin: 3px;
+         
+    }
+    
+    .menu_mess_logo .menu_wa {
+        border-radius: 50%;
+        background: #12C868;
+        padding: 10px;
+        margin: 3px;
+    }
+    
+    .menu_mess_logo .menu_tg {
+        border-radius: 50%;
+        background: #05A0EB;
+        padding: 12.5px 11px;
+        margin: 3px;
+    }
+    
+    .vb:hover, .wa:hover, .tg:hover {
+        opacity: 75%;
+    }}
